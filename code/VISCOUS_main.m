@@ -5,6 +5,7 @@ function [ GMCM_out ] = VISCOUS_main(response, input)
 %----------------------------------------------------------------
 % Programmed by Razi Sheikholeslami, University of Oxford
 % E-mail: razi.sheikholeslami@gmail.com
+% Licensed under: GNU General Public License v3.0
 % ----------------------------------------------------------------
 % Original paper:
 % Sheikholeslami, R., Gharari, S., Papalexiou, S. M., & Clark, M. P. (2021) 
@@ -174,20 +175,3 @@ end
 conditioinal_pdf = sum(GMCM_model.PComponents.*pdf_con);
 end
 %%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
