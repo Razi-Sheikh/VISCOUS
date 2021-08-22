@@ -1,4 +1,4 @@
-function [ GMCM_out ] = VISCOUS_main(response, input)
+function [ GMCM_out ] = VISCOUS(response, input)
 %<><><><><><<><><><><><main file for VISCOUS algorithm<><><><><><<><><><>><
 % Version V0-2021
 % The algorithm is proposed by Sheikholeslami et al. (2021)
